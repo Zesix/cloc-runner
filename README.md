@@ -12,9 +12,9 @@ This project is released under the [GNU General Public License 2.0](https://gith
 
 Open receiver.txt and edit the email address to where you want the results to be sent to.
 
-Run the script by double-clicking the script file OR open Terminal, navigate to the script location, and run:
+Open Terminal, navigate to the script location, then run:
 
-    python3 cloc-runner.py
+    py cloc-runner.py
 
 ## Setup ##
 
@@ -22,6 +22,7 @@ If you are behind a corporate proxy, ensure port 443 can reach GitHub.com and po
 
 Required Dependencies:
 
+ - Python 3
  - Git
  - Perl
  - CLOC
